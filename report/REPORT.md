@@ -2,35 +2,15 @@
 
 **Ngày chạy:** 2026-11-07
 
-**Runtime Colab:** CPU/GPU
+**Runtime Colab:** GPU
 
-**Python / PyTorch / Ultralytics:** Python 3.10 / PyTorch 2.x / Ultralytics 8.x
-
+**Python / PyTorch / Ultralytics:** Python 3.10 
 **Checkpoint:** `yolo11n-cls.pt`, `yolo11n.pt`, `yolo11n-seg.pt`
 
 **Ngưỡng detection/segmentation dùng khi tạo JSON:** `0.35` (chỉ đổi nếu GV cho phép; nếu đổi hãy ghi rõ)
 
 **Thay đổi so với notebook nguồn:** Không
 
-> \*\*Cách dùng mẫu này:\*\* copy/điền trên máy, lưu thành `REPORT.md`, rồi \*\*upload\*\* vào panel Files
-> của Colab (notebook không tự tạo file này). Ô cuối Colab sẽ đóng ZIP cùng `day1\_lab\_outputs/`.
-> Giải nén và đưa vào `report/` trên GitHub, rồi nộp \*\*link repo\*\* trên LMS.
-> Không ghi họ tên, MSSV, email, số điện thoại hoặc dữ liệu cá nhân khác vào báo cáo/output;
-> họ tên/MSSV chỉ nằm trong tên repository.
-
-### Từ cần nhớ (đọc nhanh trước khi viết)
-
-|Từ|Nghĩa ngắn|
-|-|-|
-|Prediction|Kết quả model vừa đoán ra; chưa phải nhãn đúng|
-|Ground truth|Nhãn do người gán theo quy tắc|
-|Taxonomy|Danh sách tên lớp có sẵn kèm model (vd. ImageNet-1K, COCO-80)|
-|Checkpoint|File model `.pt` đã huấn luyện sẵn|
-|Guideline|Quy tắc gán nhãn do người viết|
-|Annotator|Người gán nhãn|
-|Reviewer / QC|Người kiểm tra nhãn|
-|Escalation|Ca khó → hỏi Lab Coach, không tự bịa|
-|Model score|Số “tin” của model; không phải điểm chất lượng nhãn người|
 
 ## 1\. Phân loại ảnh
 
