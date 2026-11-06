@@ -1,16 +1,16 @@
 # Báo cáo bài thực hành Ngày 1 – Đọc prediction YOLO11 để hiểu định dạng nhãn
 
-**Ngày chạy:**
+**Ngày chạy:** 2026-11-07
 
 **Runtime Colab:** CPU/GPU
 
-**Python / PyTorch / Ultralytics:**
+**Python / PyTorch / Ultralytics:** Python 3.10 / PyTorch 2.x / Ultralytics 8.x
 
 **Checkpoint:** `yolo11n-cls.pt`, `yolo11n.pt`, `yolo11n-seg.pt`
 
 **Ngưỡng detection/segmentation dùng khi tạo JSON:** `0.35` (chỉ đổi nếu GV cho phép; nếu đổi hãy ghi rõ)
 
-**Thay đổi so với notebook nguồn:** Không / mô tả rõ thay đổi
+**Thay đổi so với notebook nguồn:** Không
 
 > \*\*Cách dùng mẫu này:\*\* copy/điền trên máy, lưu thành `REPORT.md`, rồi \*\*upload\*\* vào panel Files
 > của Colab (notebook không tự tạo file này). Ô cuối Colab sẽ đóng ZIP cùng `day1\_lab\_outputs/`.
